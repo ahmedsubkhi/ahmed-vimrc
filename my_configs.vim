@@ -4,6 +4,13 @@ set number
 
 
 
+"" Remove highlighted search
+set nohlsearch
+
+
+
+
+
 "" Setting for VimDevIcons working in NERD
 "" -Set encoding to UTF-8
 set encoding=utf8
@@ -55,13 +62,19 @@ let g:gitgutter_enabled = 1
 
 
 "" Snippets
-let g:SuperTabDefaultCompletionType    = '<C-n>'
+let g:SuperTabDefaultCompletionType    = '<C-s>'
 let g:SuperTabCrMapping                = 0
-let g:UltiSnipsExpandTrigger           = '<tab>'
-let g:UltiSnipsJumpForwardTrigger      = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
+let g:UltiSnipsExpandTrigger           = '<C-j>'
+let g:UltiSnipsJumpForwardTrigger      = '<C-j>'
+let g:UltiSnipsJumpBackwardTrigger     = '<C-k>'
+
+
+
+
+"" YouCompleteMe settings
 let g:ycm_key_list_select_completion   = []
 let g:ycm_key_list_previous_completion = []
+let g:ycm_autoclose_preview_window_after_insertion = 1
 
 
 
