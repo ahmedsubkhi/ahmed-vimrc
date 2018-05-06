@@ -44,6 +44,13 @@ $ cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Compl
 ```
 
 
+* Install UltiSnips plugin
+```
+$ cd ~/.vim/bundle
+$ git clone https://github.com/SirVer/ultisnips.git
+```
+
+
 ## How to uninstall
 Just do following:
 * Remove `~/.vim_runtime`
