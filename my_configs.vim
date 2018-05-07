@@ -38,15 +38,15 @@ filetype plugin indent on
 "" Open NERDTree when vim start
 autocmd VimEnter * NERDTree
 "" Show NERDTree mirror in new tab opened
-autocmd BufEnter * NERDTreeMirror
+"autocmd BufEnter * NERDTreeMirror
 "" Place cursor to new file edited window, not at NERDTree window
-autocmd VimEnter * wincmd p
+"autocmd VimEnter * wincmd p
 "" Ctrl+n to toggle NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-\> :NERDTreeFocus<CR>
 "" Show bookmark
 let NERDTreeShowBookmarks=1
 "" Show hidden file
-let NERDTreeShowHidden=1    "
+let NERDTreeShowHidden=1
 "" auto cd into a directory when entering a bookmark
 let NERDTreeChDirMode=2
 "" If only NERDTree opened in current buffer (page) then quit it
