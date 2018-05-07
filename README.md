@@ -16,6 +16,13 @@ $ cp afterglow.vim ~/.vim/colors
 ```
 
 
+* Install NERDTree Git status plugin
+```
+$ cd ~/.vim/bundle
+$ git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
+```
+
+
 * Install YouCompleteMe plugin
 ```
 $ brew install cmake
