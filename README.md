@@ -10,13 +10,13 @@ $ mkdir ~/.vim/colors
 ```
 
 
-* Add afterglow colorscheme [Afterglow](https://github.com/YabataDesign/afterglow-theme)
+* Add afterglow colorscheme [Afterglow](https://github.com/danilo-augusto/vim-afterglow/tree/master/colors)
 ```
 $ cp afterglow.vim ~/.vim/colors
 ```
 
 
-* Install YouCompleteme plugin
+* Install YouCompleteMe plugin
 ```
 $ brew install cmake
 $ cd ~/.vim/bundle
