@@ -58,6 +58,13 @@ $ git clone https://github.com/SirVer/ultisnips.git
 ```
 
 
+* Install vim-airline plugin
+```
+$ cd ~/.vim/bundle
+$ git clone https://github.com/vim-airline/vim-airline.git
+```
+
+
 ## How to uninstall
 Just do following:
 * Remove `~/.vim_runtime`
