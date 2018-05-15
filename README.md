@@ -65,6 +65,13 @@ $ git clone https://github.com/vim-airline/vim-airline.git
 ```
 
 
+* Install emmet plugin
+```
+$ cd ~/.vim/bundle
+$ git clone https://github.com/mattn/emmet-vim.git
+```
+
+
 ## How to uninstall
 Just do following:
 * Remove `~/.vim_runtime`
