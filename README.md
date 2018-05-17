@@ -72,6 +72,13 @@ $ git clone https://github.com/mattn/emmet-vim.git
 ```
 
 
+* Install multiple cursor plugin
+```
+$ cd ~/.vim/bundle
+$ git clone https://github.com/terryma/vim-multiple-cursors.git
+```
+
+
 ## How to uninstall
 Just do following:
 * Remove `~/.vim_runtime`
