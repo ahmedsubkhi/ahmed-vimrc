@@ -64,9 +64,9 @@ let g:gitgutter_enabled = 1
 "" Snippets
 let g:SuperTabDefaultCompletionType    = '<C-s>'
 let g:SuperTabCrMapping                = 0
-let g:UltiSnipsExpandTrigger           = '<C-j>'
-let g:UltiSnipsJumpForwardTrigger      = '<C-j>'
-let g:UltiSnipsJumpBackwardTrigger     = '<C-k>'
+let g:UltiSnipsExpandTrigger           = '<tab>'
+let g:UltiSnipsJumpForwardTrigger      = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
 
 
 
@@ -76,6 +76,18 @@ let g:ycm_key_list_select_completion   = []
 let g:ycm_key_list_previous_completion = []
 let g:ycm_autoclose_preview_window_after_insertion = 1
 
+
+"" Multi Cursor settings
+let g:multi_cursor_use_default_mapping=0
+" Default mapping
+let g:multi_cursor_start_word_key      = '<C-n>'
+let g:multi_cursor_select_all_word_key = '<A-n>'
+let g:multi_cursor_start_key           = 'g<C-n>'
+let g:multi_cursor_select_all_key      = 'g<A-n>'
+let g:multi_cursor_next_key            = '<C-n>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'
 
 
 
