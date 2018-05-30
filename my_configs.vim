@@ -99,3 +99,7 @@ vnoremap <C-c> :w !pbcopy<CR><CR>
 "" Disable Text folding
 set nofoldenable
 
+
+
+"" Tab with 2 space if Javascript files
+autocmd filetype javascript set sw=2 ts=2 expandtab
